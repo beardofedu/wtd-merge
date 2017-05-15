@@ -1,3 +1,18 @@
-## Merge Conflicts Aren't Scary 
+# Merge Conflicts Aren't Scary 
 
-Content.
+## Don't Fear the Conflict
+
+
+## Reading a Conflict Message in the Terminal
+
+
+## Identifying a Merge Conflict in your Document
+
+
+## Aborting a Merge
+
+
+## Fixing a Conflict
+
+
+## Merge Conflicts on a Pull Request
