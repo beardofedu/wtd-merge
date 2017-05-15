@@ -7,7 +7,7 @@
 
 
 ## Identifying a Merge Conflict in your Document
-
+![img](cli-merge-conflict.png)
 
 ## Aborting a Merge
 
