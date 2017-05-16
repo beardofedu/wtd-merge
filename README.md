@@ -4,10 +4,10 @@
 
 
 ## Reading a Conflict Message in the Terminal
-
+![img](cli-merge-conflict.png)
 
 ## Identifying a Merge Conflict in your Document
-![img](cli-merge-conflict.png)
+
 
 ## Aborting a Merge
 
