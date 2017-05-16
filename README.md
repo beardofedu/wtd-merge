@@ -29,7 +29,7 @@ So, lets look at this image and identify what it is telling us:
 
 
 ## Fixing a Conflict
-
+You can only resolve the merge conflict on GitHub, if your merge conflict is caused by competing line changes, such as when people make different changes to the same line of the same file on different branches in your Git repository. For all other merge conflicts, you must resolve the merge conflict locally on the command line.
 
 ## Merge Conflicts on a Pull Request
 
@@ -50,8 +50,11 @@ The repository for example merge conflicts can be found here: https://github.com
 1. Celebrate your victory over the merge conflict!
 
 ## Advanced Merge Conflict
-1.
-1. 
-1.
-1.
-1.
+This exercise is going to use a new **remote** to pull changes from another repository.
+
+1. First we need to create a new remote, enter: `git remote add upstream https://github.com/beardofedu/wtd-games`
+1. In the command line, enter: `git fetch upstream`
+1. In the command line, enter: `git checkout -b shape-colors origin/shape-colors`
+1. In the command line, enter: `git merge upstream/shape-colors`, this will cause a merge conflict to occur, look for the merge conflict markers, pick the colors you want to use in the game, and save your work.
+1. In the command line, enter: `git add index.html`
+1. In the command line, enter: `git commit`
