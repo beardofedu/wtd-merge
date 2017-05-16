@@ -13,6 +13,8 @@ Take a deep breath we are going to help you learn to identify what git is tellin
 ## Reading a Conflict Message in the Terminal
 ![img](cli-merge-conflict.png)
 
+When you run into a merge conflict, git will let you know which file (or files) the merge conflict occurred in. Running `git status` will also display a list of **unmerged paths** (or files that have conflicts). Opening the files in your favorite editor will enable you to fix the merge conflict.
+
 ## Identifying a Merge Conflict in your Document
 ![img](atom-merge-conflict.png)
 
