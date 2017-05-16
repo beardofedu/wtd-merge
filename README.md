@@ -29,7 +29,7 @@ So, lets look at this image and identify what it is telling us:
 
 
 ## Fixing a Conflict
-
+We have fantastic <a href='https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/' target='_blank'>merge conflict resolution steps in our help docs</a>.
 
 ## Merge Conflicts on a Pull Request
 
