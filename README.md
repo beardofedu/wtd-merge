@@ -32,3 +32,26 @@ So, lets look at this image and identify what it is telling us:
 
 
 ## Merge Conflicts on a Pull Request
+
+
+## Exercise 
+The repository for example merge conflicts can be found here: https://github.com/beardofedu/wtd-games
+
+### Simple Merge Conflict
+1. Fork the `wtd-games` repo from https://github.com/beardofedu/wtd-games
+1. Clone the project locally.
+1. `cd` into the repository and checkout the **stats-update** branch using: `git checkout stats-update`
+1. Run `git merge gh-pages` and you will encounter a merge conflict.
+1. Open the **index.html** file in your favorite text editor. 
+1. Lines **14-18** will have a merge conflict.
+1. Select which color you want the score to be and remove the excess code. You should be left with a single line of code that looks like this: `#score    { color: yellow; font-weight: bold; vertical-align: middle; }`
+1. In the command line, enter `git add index.html`
+1. In the command line, enter `git coommit` 
+1. Celebrate your victory over the merge conflict!
+
+## Advanced Merge Conflict
+1.
+1. 
+1.
+1.
+1.
