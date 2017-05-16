@@ -49,7 +49,7 @@ The repository for example merge conflicts can be found here: https://github.com
 1. In the command line, enter `git coommit` 
 1. Celebrate your victory over the merge conflict!
 
-## Advanced Merge Conflict
+### Advanced Merge Conflict
 This exercise is going to use a new **remote** to pull changes from another repository.
 
 1. First we need to create a new remote, enter: `git remote add upstream https://github.com/beardofedu/wtd-games`
