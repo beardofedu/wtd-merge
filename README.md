@@ -26,7 +26,7 @@ So, lets look at this image and identify what it is telling us:
   This is the branch that you are currently trying to merge into your branch that is causing the merge conflict to occur. This can sometimes display a random assortment of alphanumerical characters. This is in fact the SHA-1 hash associated with a commit and your computer **is not** breaking. 
 
 ## Aborting a Merge
-
+Sometimes you may not want to deal with a merge conflict at all. If you have ever ran `git status` during a merge conflict you may have seen this line, `(use "git merge --abort" to abort the merge)`. Running `git merge --abort` undoes everything that the merge attempted to do and places you back into the state your project was in prior to the atempted merge.
 
 ## Fixing a Conflict
 
