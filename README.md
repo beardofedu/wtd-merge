@@ -13,8 +13,6 @@ Take a deep breath we are going to help you learn to identify what git is tellin
 ## Reading a Conflict Message in the Terminal
 ![img](cli-merge-conflict.png)
 
-When you run into a merge conflict, git will let you know which file (or files) the merge conflict occurred in. Running `git status` will also display a list of **unmerged paths** (or files that have conflicts). Opening the files in your favorite editor will enable you to fix the merge conflict.
-
 ## Identifying a Merge Conflict in your Document
 ![img](atom-merge-conflict.png)
 
@@ -34,7 +32,21 @@ Sometimes you may not want to deal with a merge conflict at all. If you have eve
 You can only resolve the merge conflict on GitHub, if your merge conflict is caused by competing line changes, such as when people make different changes to the same line of the same file on different branches in your Git repository. For all other merge conflicts, you must resolve the merge conflict locally on the command line.
 
 ## Merge Conflicts on a Pull Request
+If you create a pr in Github, it may alert you to a merge conflict in the GUI.
+![Github Merge Conflict](merge-conflict-github.png)
 
+There are tools in Github for resolving some, but not all merge conflicts. These tools closely mimic what happens on the command line tools.
+
+First we identify the conflicts and resolve them.
+![Conflicts](Github Resolution.png)
+
+Mark the new implementation as resolved.
+![Mark as resolved](mark%20as%20resolved.png)
+
+Commit the changes.
+![commit](commit.png)
+
+Know that this exists as it can be handy, but don't be afraid to do this on the command line as some times it is your only path forward.
 
 ## Exercise 
 The repository for example merge conflicts can be found here: https://github.com/beardofedu/wtd-games
