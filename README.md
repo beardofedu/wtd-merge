@@ -1,6 +1,8 @@
 # Merge Conflicts Aren't Scary 
 ![scary](screaming-woman-merge-conflict.jpg)
 
+[Visualization Tool](http://git-school.github.io/visualizing-git/)
+
 ## Why is this happening to me?
 
 Merge conflicts occur when two people are working on the same part of the same file because Git doesn't know which version is correct. This is an **awesome** opportunity for you to collaborate with another writer on your team to identify the best way to proceed. 
