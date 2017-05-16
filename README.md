@@ -14,7 +14,7 @@ Take a deep breath we are going to help you learn to identify what git is tellin
 ![img](cli-merge-conflict.png)
 
 ## Identifying a Merge Conflict in your Document
-
+![img](atom-merge-conflict.png)
 
 ## Aborting a Merge
 
