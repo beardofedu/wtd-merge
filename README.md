@@ -32,6 +32,7 @@ Sometimes you may not want to deal with a merge conflict at all. If you have eve
 
 ## Fixing a Conflict
 You can only resolve the merge conflict on GitHub, if your merge conflict is caused by competing line changes, such as when people make different changes to the same line of the same file on different branches in your Git repository. For all other merge conflicts, you must resolve the merge conflict locally on the command line.
+We have fantastic <a href='https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/' target='_blank'>merge conflict resolution steps in our help docs</a>.
 
 ## Merge Conflicts on a Pull Request
 If you create a pr in Github, it may alert you to a merge conflict in the GUI.
